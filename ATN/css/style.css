@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.min.css");
+
 .wrapper {
   font-family: 'Montserrat', sans-serif;
   color: #000000;
@@ -223,9 +225,9 @@ img {
 }
 
 .content__block {
-  -webkit-transform: translateX(5%);
-      -ms-transform: translateX(5%);
-          transform: translateX(5%);
+  -webkit-transform: translateX(3%);
+      -ms-transform: translateX(3%);
+          transform: translateX(3%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -641,7 +643,7 @@ img {
 @media (max-width: 950px) {
   .content__ellipse:before {
     content: '';
-    bottom: 60%;
+    bottom: 20%;
   }
 }
 
