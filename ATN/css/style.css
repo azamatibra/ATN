@@ -300,7 +300,6 @@ img {
   -webkit-transform: translateY(-60%);
       -ms-transform: translateY(-60%);
           transform: translateY(-60%);
-  z-index: 2;
 }
 
 .content__img-mobile {
@@ -445,7 +444,7 @@ img {
 
 .footer__bg {
   background-color: #C4C4C4;
-  max-width: 1450px;
+  width: 100%;
   margin: 0 auto;
 }
 
